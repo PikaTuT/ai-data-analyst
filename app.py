@@ -50,7 +50,7 @@ if selected:
         st.dataframe(num_part.describe().T)
     if not txt_part.empty:
         st.caption("Text columns")
-        st.dataframe(txt_part.describe().T)
+        st.dataframe(txt_part.describe().T.astype(str))
 else:
     st.info("Select at least one column.")
 
