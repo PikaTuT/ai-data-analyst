@@ -1,0 +1,15 @@
+# secrets
+.env
+.streamlit/secrets.toml
+
+# environment and caches
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# notebooks and images
+*.ipynb
+*.png
+
+# data: ignore all CSVs
+*.csv
